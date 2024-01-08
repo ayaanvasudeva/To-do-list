@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Note app</title>
+<!-- favicon -->
+  <link rel="icon" href="favicon.ico?v=2">
+</head>
+
+
+
+<div class="tablet">
+  <div class="content">
+    <h1 class = "padding"><%=day%>, <%=date%>th <%=month%></h1>
+   <form class = "padding" action="/submit" method="POST">
+    <input type="text" name="note" placeholder="New note">
+    <input type="submit" value="+">
+  </form>
+  <p><strong>Copy right A.V. 2023</strong></p>
+  </div>
+</div>

@@ -1,0 +1,283 @@
+<head>
+    <link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon -->
+  <link rel="icon" href="favicon.ico?v=2">
+<title>Note app</title>
+</head>
+<% let t = n%>
+<% console.log(n)%>
+<div class="tablet">
+  <div class="content ">
+  <div class = "yellow">
+     <h1 class = "padding"><%=day%>, <%=date%>th <%=month%> | 
+  <%=n%>/10</h1>
+  </div>
+
+ <form class = "padding" action="/submit" method="POST">
+    <input type="text" name="note" placeholder="New note">
+    <input type="submit" value="+">
+  </form>
+
+  <% if (t === 1){ %>
+
+  <form>
+    <input type="checkbox">
+    <h1 class = "h1"><%=note1%></h1>
+  </form>
+   
+
+
+    
+  <%} %>
+  <% if (t === 2){ %>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+    
+  <%} %>
+    <% if (t === 3){ %>
+      <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    
+  <%} %>
+   <% if (t === 4){ %>
+     <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note4%></h1>
+    </form>
+    
+  <%} %>
+   <% if (t === 5){ %>
+     <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note4%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note5%></h1>
+    </form>
+  <%} %>
+   <% if (t === 6){ %>
+       <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note4%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note5%></h1>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note6%></h1>
+    </form>
+
+
+
+     
+    
+  <%} %>
+   <% if (t === 7){ %>
+      <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note4%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note5%></h1>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note6%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note7%></h1>
+    </form>
+    
+  <%} %>
+   <% if (t === 8){ %>
+          <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note1%></h1>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h1 class = "padding h1"><%=note2%></h1>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h1 class = "padding h1"><%=note3%></h1>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note4%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h1 class = "padding h1"><%=note5%></h1>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note6%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note7%></h1>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h1 class = "padding h1"><%=note8%></h1>
+    </form>
+    
+  <%} %>
+   <% if (t === 9){ %>
+     <form>
+    <input type="checkbox">
+    <h2 class = "padding h1"><%=note1%></h2>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h2 class = "padding h1"><%=note2%></h2>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h2 class = "padding h1"><%=note3%></h2>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h2 class = "padding h1"><%=note4%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h2 class = "padding h1"><%=note5%></h2>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note6%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note7%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note8%></h2>
+    </form>
+      <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note9%></h2>
+    </form>
+  <%} %>
+   <% if (t === 10){ %>
+    <form>
+    <input type="checkbox">
+    <h2 class = "padding h1"><%=note1%></h2>
+  </form>
+  <form>
+    <input type="checkbox">
+    <h2 class = "padding h1"><%=note2%></h2>
+  </form>
+  <form>
+    <input class = "checkbox" type="checkbox">
+    <h2 class = "padding h1"><%=note3%></h2>
+  </form>
+    <form>
+       <input type="checkbox">
+    <h2 class = "padding h1"><%=note4%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+    <h2 class = "padding h1"><%=note5%></h2>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note6%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note7%></h2>
+    </form>
+    <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note8%></h2>
+    </form>
+      <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note9%></h2>
+    </form>
+     <form>
+       <input type="checkbox">
+   <h2 class = "padding h1"><%=note10%></h2>
+    </form>
+    
+  <%} %>
+  
+  
+  
+  </div>
+</div>
+
